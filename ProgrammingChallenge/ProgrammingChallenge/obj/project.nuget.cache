@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "e12zUGhtQ+mfWCW+ZQnBGHR8bjE4uo9uAzJYyRBR1eabAzSp0wpAIR4o+f1Bt5aXlN7WirCPu2iFeKFGGfHL9Q==",
+  "dgSpecHash": "Xvdcq6+zly8cMJ8rI2uGIHWji3MUdx0XIlI+OOzipaPAaNAFJSMu7iSleVFTsBLRsOI7p+6QYWwCEoOWamXukg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\klapa.WHITELION.000\\Desktop\\UPC\\Tranzact\\ProgrammingChallenge\\ProgrammingChallenge\\ProgrammingChallenge.csproj",
+  "projectFilePath": "D:\\Tranzact\\ProgrammingChallenge\\ProgrammingChallenge\\ProgrammingChallenge.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\klapa.WHITELION.000\\.nuget\\packages\\microsoft.extensions.configuration\\6.0.0\\microsoft.extensions.configuration.6.0.0.nupkg.sha512",
     "C:\\Users\\klapa.WHITELION.000\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\6.0.0\\microsoft.extensions.configuration.abstractions.6.0.0.nupkg.sha512",

@@ -493,11 +493,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\klapa.WHITELION.000\\Desktop\\UPC\\Tranzact\\ProgrammingChallenge\\ProgrammingChallenge\\ProgrammingChallenge.csproj",
+      "projectUniqueName": "D:\\Tranzact\\ProgrammingChallenge\\ProgrammingChallenge\\ProgrammingChallenge.csproj",
       "projectName": "ProgrammingChallenge",
-      "projectPath": "C:\\Users\\klapa.WHITELION.000\\Desktop\\UPC\\Tranzact\\ProgrammingChallenge\\ProgrammingChallenge\\ProgrammingChallenge.csproj",
+      "projectPath": "D:\\Tranzact\\ProgrammingChallenge\\ProgrammingChallenge\\ProgrammingChallenge.csproj",
       "packagesPath": "C:\\Users\\klapa.WHITELION.000\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\klapa.WHITELION.000\\Desktop\\UPC\\Tranzact\\ProgrammingChallenge\\ProgrammingChallenge\\obj\\",
+      "outputPath": "D:\\Tranzact\\ProgrammingChallenge\\ProgrammingChallenge\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
