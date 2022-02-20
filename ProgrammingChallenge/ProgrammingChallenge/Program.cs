@@ -11,25 +11,22 @@ namespace ProgrammingChallenge
     static void Main(string[] args)
     {
 
-      Console.WriteLine("Ingrese los programas a comparar separados por un espacio| Enter the programs to compare separated by a space");
+      Console.WriteLine("Digite los programas a comparar separados por un espacio | Enter the programs to compare separated by a space");
       string words = Console.ReadLine();
-      var array = words.CustomSplit();
+      var arrayWords = words.CustomSplit();
 
-      if (array.Length >= 2)
+      if (arrayWords.Length >= 2)
       {
         ISearchEngines factory = new SearchEngineConfiguration();
         var services = factory.GetAvailableServices();
 
         Console.Write("--------------------------------------"); Console.Write("\n");
-        foreach (var value in array)
+        foreach (var value in arrayWords)
         {
          
           Console.Write($"{ value.Replace("\"", "") }: ");
-
           foreach (var service in services)
-            Console.Write($"{service.GetResults( value.Replace("\"", "") )}" + "|");
-
-          Console.Write("\n");
+          Console.Write($"{service.GetResults( value.Replace(" ", "") )}" + "|"); Console.Write("\n");
         }
 
         Console.Write("--------------------------------------"); Console.Write("\n");
@@ -38,13 +35,10 @@ namespace ProgrammingChallenge
           Console.WriteLine(service.WinnerToString());
         }
         Console.Write("--------------------------------------"); Console.Write("\n");
-
         Console.WriteLine($"Total winner: {factory.GetFinalWinner(services)} ");
-
         Console.ReadKey();
       }
-
-      Console.WriteLine("Enter at least 2 words separated by space");
+      Console.WriteLine(" Introduce al menos 2 palabras separadas por espacios | Enter at least 2 words separated by space");
     }
 
 

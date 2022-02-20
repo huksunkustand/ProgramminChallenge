@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31829.152
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProgrammingChallenge", "ProgrammingChallenge\ProgrammingChallenge.csproj", "{5B93E3C8-845E-4D6D-A94C-52E722925164}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProgrammingChallenge", "ProgrammingChallenge\ProgrammingChallenge.csproj", "{5B93E3C8-845E-4D6D-A94C-52E722925164}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestProjectChallenge", "TestProjectChallenge\TestProjectChallenge.csproj", "{EA4088A0-A17D-49BF-AC5B-B32BB4A8957D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{5B93E3C8-845E-4D6D-A94C-52E722925164}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5B93E3C8-845E-4D6D-A94C-52E722925164}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5B93E3C8-845E-4D6D-A94C-52E722925164}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA4088A0-A17D-49BF-AC5B-B32BB4A8957D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA4088A0-A17D-49BF-AC5B-B32BB4A8957D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA4088A0-A17D-49BF-AC5B-B32BB4A8957D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA4088A0-A17D-49BF-AC5B-B32BB4A8957D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

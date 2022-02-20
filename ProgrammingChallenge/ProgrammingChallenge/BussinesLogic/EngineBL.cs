@@ -6,7 +6,7 @@ using System.Net.Http;
 
 namespace ProgrammingChallenge.BussinesLogic
 {
-  class EngineBL
+  public class EngineBL
   {
 
     private readonly HttpClient _httpClient;
@@ -18,7 +18,7 @@ namespace ProgrammingChallenge.BussinesLogic
     {
       _httpClient.DefaultRequestHeaders.Add(key, value);
     }
-    public JObject GetResponse(string url)
+    public  JObject GetResponse(string url)
     {
       try
       {
@@ -32,7 +32,7 @@ namespace ProgrammingChallenge.BussinesLogic
         throw;
       }
     }
-    public string GetSecretKey(string key)
+    public static string GetSecretKey(string key)
     {
       var builder = new ConfigurationBuilder()
        .SetBasePath(Directory.GetCurrentDirectory())
